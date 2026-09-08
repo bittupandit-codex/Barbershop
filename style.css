@@ -244,7 +244,7 @@ body {
 }
 
 
-/* ================= SECTION TITLE ================= */
+/* SECTION TITLE */
 
 .section-title {
     text-align: center;
@@ -816,33 +816,54 @@ footer p {
     .hero {
         min-height: auto;
 
-        padding:
-            80px 7%;
+        padding:80px 7%;
+        font-size: 15px;
 
         flex-direction: column;
 
-        text-align: center;
+        text-align: left;
     }
+    .top-text{
+        position: absolute;
+        left: 50px;
+        right: 50px;
+        top: 100px;
+       box-sizing: border-box;
+       font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+    .hero h1 {
+    font-size: clamp(20px, 3vw, 65px);
+
+    line-height: .95;
+
+    font-weight: 900;
+
+    letter-spacing: 2px;
+}
+
+.hero h1 span {
+    color: #d4af37;
+}
 
 
     .hero-description {
-        margin-left: auto;
-        margin-right: auto;
+        position: absolute;
+        font-size: 8px;
+        left: 10px;
+        border: 2px solid rgb(41, 39, 39);
     }
 
+ .hero-image {
+        width: 100px;
+        height: 100px;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
 
     .hero-buttons {
-        justify-content: center;
-
+        justify-content: right;
         flex-wrap: wrap;
-    }
-
-
-    .hero-image {
-        width: 300px;
-        height: 300px;
-
-        margin-top: 50px;
     }
 
 
