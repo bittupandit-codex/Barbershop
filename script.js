@@ -56,7 +56,7 @@ contactForm.addEventListener("submit", function (event) {
 
 
     // WhatsApp number
-    const whatsappNumber = "918271734883"; // my WhatsApp number 
+    const whatsappNumber = "+918271734883"; // my WhatsApp number 
 
 
     const whatsappMessage =
