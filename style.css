@@ -302,6 +302,7 @@ body {
         repeat(4, 1fr);
 
     gap: 20px;
+    box-sizing: border-box;
 }
 
 
@@ -322,7 +323,6 @@ body {
     width: 150px;
     height : 100px;
     box-sizing: border-box;
-    border: 5px solid olivedrab;
 }
 
 
@@ -400,7 +400,7 @@ body {
 }
 
 
-.about-box {
+.about-box img{
     width: 260px;
     height: 260px;
 
@@ -831,15 +831,17 @@ footer p {
     }
     .top-text{
         position: absolute;
-        left: 50px;
-        right: 50px;
+        left: 100px;
+        right: 20px;
         top: 100px;
        box-sizing: border-box;
        font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 20px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif, italic;
+        text-shadow: 3px 3px 5px #000000;
     }
     .hero h1 {
-    font-size: clamp(20px, 3vw, 65px);
+    font-size: clamp(20px, 5vw, 85px);
 
     line-height: .95;
 
@@ -863,7 +865,7 @@ footer p {
 
  .hero-image {
         width: 100px;
-        height: 100px;
+        height: auto;
         box-sizing: border-box;
         margin-top: 50px;
     }
@@ -903,7 +905,7 @@ footer p {
 
 .service-container {
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 10px;
     margin: 0;
     width: 100%;
     height: auto;
@@ -916,15 +918,15 @@ footer p {
     width: auto;
     padding: 3px;
     margin: 5px;
-    background: #181818;
-
-   
-
+    border: 5px solid #292929;
     transition: .3s;
+    box-sizing: border-box;
+    object-fit: cover;
+    overflow: hidden;
 }
 .service-card img{
-    width: 180px;
-    height : 180px;
+    width: 150px;
+    height : 150px;
     box-sizing: border-box;
 }
 
@@ -1002,7 +1004,7 @@ footer p {
 }
 
 
-.about-box {
+.about-box img {
     width: 260px;
     height: 260px;
 
